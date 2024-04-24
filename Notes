@@ -1,0 +1,274 @@
+PROGRAMMING:
+
+Variables are containers that are used to store data.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+pokemon_name = "Pikachu"
+pokemon_type = "Electric"
+pokemon_speed = 100
+pokemon_health = 100
+
+print("Name:",pokemon_name)
+print("Type:",pokemon_type)
+print("Speed:",pokemon_speed)
+print("Health:",pokemon_health)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+In Python, a string is a sequence of characters enclosed within either single quotesor' 'or double quotes" "Strings can contain letters, numbers, symbols, and spaces
+Example - "Hello world", "Nepal, "Apple", "Ramesh", "Neharika"
+
+
+integers - Numbers negative 0 or positive. 18 ,200 , 4 ,
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+https://github.com/codinguruba/Junior-Coding-Camp/blob/main/Notes.txt
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Program 
+
+pokemon_name = "Pikachu"
+pokemon_type = "electric"
+pokemon_speed = 100
+pokemon_health = 200
+
+if(Pokemon_health=100200)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Comments in Python - Comments  can be used to explain Python code. Comment is not executed
+Comments starts with  # 
+Example of a comment
+#This is comment and it doesn't get printed
+print("Welcome to python")
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Data types are classifications that categorize various types of data that can be used in programming
+int - Integer type represents whole numbers without any fractional part.
+float - Floating-point type represents numbers with a fractional part
+String -  String type represents sequences of  characters, used for text manipulation.
+
+a = 5
+print(type(a))
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+In Python, the type() function is used to get the data type of an object
+
+Python Arithmetic Operators
+Arithmetic operators are used with numeric values to perform common mathematical operations:
+
+Operator	Name	Example	Try it
++	Addition	x + y	
+-	Subtraction	x - y	
+*	Multiplication	x * y	
+/	Division	x / y	
+%	Modulus	x % y
+**	Exponentiation
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Python Casting - Converting one data type into another
+w
+import math
+
+radius = 2
+
+area = math.pi * (radius ** 2)
+
+print("The area of the circle is:", area)
+
+Booleans represent one of two values: True or False.
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+num1 = 20
+num2 = 5
+modulas = 20 % 5
+print(modulas)
+
+import math 
+radius = 2
+area_of_circle = math.pi * (radius**2)
+print(area_of_circle)
+
+lenght = 4
+area_of_square = lenght**2
+print("Area of square:",area_of_square)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+user_input = int(input("Enter any number:"))
+
+if user_input % 2 == 0:
+    print("Even number")
+    
+else:
+   print("Odd number")
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Comparison operators are used to compare two values:
+Equal to (==): Checks if two values are equal.
+Not equal to (!=):
+Greater than (>):
+Less than (<): 
+Less than or equal to (<=):
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+User Input
+Python allows for user input.
+That means we are able to ask the user for input.
+User input in Python can be obtained using the input() function.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+List
+Lists are used to store multiple items in a single variable.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+user = int(input("Enter any number from 1 to 7:"))
+
+if(user == 1):
+    print("Sunday")
+    
+elif(user == 2):
+    print("Monday")
+
+elif(user == 3):
+    print("Tuesday")
+    
+elif(user == 4):
+    print("Wednesday")
+    
+elif(user == 5):
+    print("Thursday")
+    
+elif(user == 6):
+    print("Friday")
+    
+elif(user == 7):
+    print("Saturday")
+
+def addition():
+    a = int(input("Enter first number:"))
+    b= int(input("Enter second number:"))
+    add = a+b
+    print("Addition is:", add)
+    
+def subtraction():
+    a = int(input("Enter first number:"))
+    b= int(input("Enter second number:"))
+    subtract = a-b
+    print("Subtraction is:", subtract)
+    
+def multiplication():
+    a = int(input("Enter first number:"))
+    b= int(input("Enter second number:"))
+    muliply = a * b
+    print("Multiplication is:", multiply)
+    
+def division():
+    a = int(input("Enter first number:"))
+    b= int(input("Enter second number:"))
+    division = a/b
+    print("Division is:", division)
+
+
+
+
+
+addition()
+subtraction()
+multiplication()
+division()
+
+https://github.com/codinguruba/Junior-Coding-Camp/blob/main/Practise%20problems
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+def addition(a,b):
+    add = a+b
+    print("answer:",add)
+
+
+
+def multiplication(a,b):
+    multiply = a*b
+    print("answer:", multiply)
+    
+
+
+def subtraction(a,b):
+    subtract = a-b
+    print("answer:",subtract)
+
+    
+num1 = int(input("Enter num1`:"))
+num2 = int(input("Enter num2:"))
+
+print("Press 1 for add , 2 for subtract and 3 for multiplication")
+user = int(input("Enter your choice:"))
+
+if user==1:
+    addition(num1,num2)
+    
+if user==2:
+    subtraction(num1,num2)
+    
+if user==3:
+    multiplication(num1,num2)
+
+ 1 = int(input("Enter number1:"))
+    2 = int(input("Enter number2:"))
+    area(hi,hi2)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+fruits = ['apple','banana','guava','grapes']
+print(fruits[0])
+print(fruits[1])
+print(fruits[2])
+print(fruits[3])
+print(fruits)
+
+fruits.append("mango")
+print(fruits)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+the function of append is to add any  element in a list
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+for i in range(0,10):
+    print("Atul Ojha")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
